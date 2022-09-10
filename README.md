@@ -48,7 +48,12 @@ Via website:
 4.  Employee call to the customer for verification of order.
 5.  If the customer want to sign online contract (blank service) employee send contract to the customer via email and the customer sign contract.
 6.  On the day of cleaning, the customer must sign the contract and, after cleaning, make payment through the employee’s application or in cash.
-   
+
+Employee's vision:
+
+1. Employee commit order from customer via verification of order or via a customer's call.
+2. On the day of cleaning, the employee must give the contract to the customer and do his job. After you have to take payment through employee’s application or in cash.
+
 # Technical Requirements
 
 # API Design
