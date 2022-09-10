@@ -34,6 +34,13 @@ Cleaning company's user story created for subsequent conversion into technical r
 
 Via phone calls:
 
+1. Customer call to employee for order cleaning.
+2. The customer asks for a price and describes the condition and area of the room or office that needs to be cleaned.
+3. If customer agree with price then the customer provides his data like name, last name, phone number if customer need to change phone number, date for cleaning if employee is available.
+4. On the day of cleaning, the customer must sign the contract and, after cleaning, make payment through the employee’s application or in cash
+
+Via website:
+
 1. 
 # Technical Requirements
 
