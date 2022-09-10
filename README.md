@@ -20,11 +20,11 @@ Cleaning company's simplified system design with api design and deploy plan.
 
 
 # Ubiquitous language
-- User -> Customer
-- Cleaning order -> Order
-- Verification service -> component for verifying the order
-- Squares -> The area of the building or premises
-- Cleaning types -> types of cleaning depending on different rooms and complexity
+- Customer <- User
+- Order <- Cleaning order
+- Verification service <- component for verifying the order
+- Squares <- The area of the building or premises
+- Cleaning types <- types of cleaning depending on different rooms and complexity
 
 # User Story
 
@@ -36,12 +36,19 @@ Via phone calls:
 
 1. Customer call to employee for order cleaning.
 2. The customer asks for a price and describes the condition and area of the room or office that needs to be cleaned.
-3. If customer agree with price then the customer provides his data like name, last name, phone number if customer need to change phone number, date for cleaning if employee is available.
-4. On the day of cleaning, the customer must sign the contract and, after cleaning, make payment through the employee’s application or in cash
+3. If customer agree with price then the customer provides his data like name, last name, email(optional), phone number if customer need to change phone number, date for cleaning if employee is available.
+4. If the customer want to sign online contract (blank service) employee send contract to the customer via email and the customer sign contract.
+5. On the day of cleaning, the customer must sign the contract and, after cleaning, make payment through the employee’s application or in cash.
 
 Via website:
 
-1. 
+1. Customer open website, scroll to forms.
+2. The customer calculates price using the types of cleaning and the area of the room or office to be cleaned.
+3. Then the customer fill forms with name, last name, email, phone number, date for cleaning if employee is available and submit forms.
+4.  Employee call to the customer for verification of order.
+5.  If the customer want to sign online contract (blank service) employee send contract to the customer via email and the customer sign contract.
+6.  On the day of cleaning, the customer must sign the contract and, after cleaning, make payment through the employee’s application or in cash.
+   
 # Technical Requirements
 
 # API Design
